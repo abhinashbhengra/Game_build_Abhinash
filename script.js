@@ -235,8 +235,9 @@ window.addEventListener("load", function () {
   class Background {
     constructor(game) {
       this.game = game;
-      this.image1 = document.getElementById("layer1");
-      this.image2 = document.getElementById("layer2");
+      //   this.image1 = document.getElementById("layer1");
+      this.image1 = document.getElementById("Frame1");
+      this.image2 = document.getElementById("cityxxx");
       this.image3 = document.getElementById("layer3");
       this.image4 = document.getElementById("layer4");
       this.layer1 = new Layer(this.game, this.image1, 0.2);
