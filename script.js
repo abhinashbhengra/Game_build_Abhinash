@@ -103,13 +103,13 @@ window.addEventListener("load", function () {
   class Player {
     constructor(game) {
       this.game = game;
-      this.width = 120;
+      this.width = 190;
       this.height = 190;
       this.x = 20;
       this.y = 100;
       this.frameX = 0;
       this.frameY = 0;
-      this.maxFrame = 37;
+      this.maxFrame = 20;
       this.speedY = 0;
       this.maxSpeed = 2;
       this.projectiles = [];
